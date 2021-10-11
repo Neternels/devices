@@ -13,3 +13,4 @@
 | Realme C3            | rmx2020     | cyberknight777     | Alive    |
 | Samsung S8           | dreamlte    | Pointz             | Alive    |
 | Samsung S8 plus      | dream2lte   | Pointz             | Alive    |
+| Samsung Note 8       | greatlte    | Pointz             | Alive    |
