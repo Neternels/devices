@@ -21,3 +21,4 @@
 | Samsung a30s         | a30s        | Robin              | Alive    |
 | Xiaomi Redmi 8       | olive       | Robin              | Alive    |
 | Xiaomi Redmi Note 4X | mido        | Robin              | Alive    |
+| Xiaomi Redmi 7A      | pine        | Robin              | Alive    |
