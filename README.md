@@ -19,3 +19,4 @@
 | Samsung Note 10 plus | d2s         | Pointz             | Alive    |
 | Samsung a70          | a70q        | Robin              | Alive    |
 | Samsung a30s         | a30s        | Robin              | Alive    |
+| Xiaomi Redmi 8       | olive       | Robin              | Alive    |
