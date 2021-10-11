@@ -8,3 +8,4 @@
 | Xiaomi Redmi 6 Pro   | sakura      | cyberknight777     | Alive    |
 | HTC M8               | m8wl        | cyberknight777     | Alive    | 
 | Xiaomi 5A            | riva        | cyberknight777     | Alive    |
+| Redmi-MT6768         | mt6768      | cyberknight777     | Alive    |
