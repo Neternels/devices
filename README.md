@@ -14,3 +14,4 @@
 | Samsung S8           | dreamlte    | Pointz             | Alive    |
 | Samsung S8 plus      | dream2lte   | Pointz             | Alive    |
 | Samsung Note 8       | greatlte    | Pointz             | Alive    |
+| Samsung S9           | starlte     | Pointz             | Alive    |
