@@ -11,3 +11,4 @@
 | Redmi-MT6768         | mt6768      | cyberknight777     | Alive    |
 | Redmi Note 8/T       | ginkgo      | cyberknight777     | Alive    |
 | Realme C3            | rmx2020     | cyberknight777     | Alive    |
+| Samsung S8           | dreamlte    | Pointz             | Alive    |
