@@ -5,7 +5,7 @@ Type: Stable
 Device: Redmi Note 10
 Compiler: Eva GCC 12.0.0
 Branch: LA.UM.9.1
-Build Number: v5
+Build Number: v6-NYSP
 ```
 ## Changelog
 **-v5**
@@ -52,3 +52,19 @@ Build Number: v5
 * backport TCP optimizations from mainline for reduced network latency and overall consistent network speed
 * mainlined ZSTD
 * use ZSTD for zswap as zstd proves to be better for zswap and other crypto operations
+
+**-v6-NYSP**
+* Rebased off LA.UM.9.1.r1-11400-SMxxx0.0
+* Imported wlan drivers, audio drivers and rmnet off LA.UM.9.1.r1-11400-SMxxx0.0
+* debloated Xiaomi changes 
+* nuked some suntana ricing
+* fix OTG issues
+* upstream kernel/modules.c
+* fix modules loading issues
+* fix some unnecessary drains
+* fix whatsapp web reconnecting issue
+* backport AF_UNIX from mainline
+* nuke some irrelevant logspam
+* nuke irrelevant drivers
+* fix vid recording in A12
+* build most drivers as a module

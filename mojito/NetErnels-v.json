@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "NetErnels",
-    "version": "v5",
-    "link": "https://github.com/NetErnels/devices/raw/master/mojito/NetErnels-mojito-v5.zip",
+    "version": "v6-NYSP",
+    "link": "https://github.com/NetErnels/devices/raw/master/mojito/NetErnels-mojito-v6-NYSP.zip",
     "changelog_url": "https://raw.githubusercontent.com/neternels/devices/master/mojito/changelog.md",
-    "date": "2021-11-21",
-    "sha1": "1a5be17424d31723f5e21614c1ceb5e4f826b4d6"
+    "date": "2022-01-01",
+    "sha1": "e95a0737dbf988fec8e125f26646b29bba37c9cd"
   },
   "support": {
     "link": "https://t.me/neternels_chat"
