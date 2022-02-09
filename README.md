@@ -23,4 +23,4 @@
 | Xiaomi Redmi Note 4X | mido        | Robin              | Alive    |
 | Xiaomi Redmi 7A      | pine        | Robin              | Alive    |
 | Xiaomi Poco F1       | beryllium   | Hilledkinged       | Paused   |
-| Xiaomi Redmi 4X      | santoni     | [Hacker007](https://github.com/Mainak009 "Visit Github Profile")          | Paused   |
+| Xiaomi Redmi 4X      | santoni     | Mainak009          | Paused   |
