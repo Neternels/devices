@@ -23,4 +23,4 @@
 | Xiaomi Redmi Note 4X | mido        | Robin              | Alive    |
 | Xiaomi Redmi 7A      | pine        | Robin              | Alive    |
 | Xiaomi Poco F1       | beryllium   | Hilledkinged       | Paused   |
-| Xiaomi Redmi 4X      | santoni     | Mainak009          | Paused   |
+| Xiaomi Redmi 4X      | santoni     | Mainak009          | Alive    |
