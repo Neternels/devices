@@ -1,0 +1,13 @@
+{
+  "kernel": {
+    "name": "NetErnels Kernel For santoni",
+    "version": "v1.4.4",
+    "link": "https://github.com/NetErnels/devices/raw/master/santoni/NetErnels-santoni-a11-v1.4.4-4.9.227-signed.zip",
+    "changelog_url": "https://raw.githubusercontent.com/neternels/devices/master/santoni/changelog.md",
+    "date": "2022-07-01",
+    "sha1": "2dbd8f67ebbff1e8135893411eac69e397c6509e"
+  },
+  "support": {
+    "link": "https://t.me/neternels_chat"
+  }
+}
