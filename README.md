@@ -24,3 +24,4 @@
 | Xiaomi Redmi 7A      | pine        | Robin              | Alive    |
 | Xiaomi Poco F1       | beryllium   | Hilledkinged       | Paused   |
 | Xiaomi Redmi 4X      | santoni     | Mainak009          | Alive    |
+| Lenovo Tab4 10       | TBX304      | hendramanudinata03 | Alive    |
