@@ -4,13 +4,13 @@
 | -------------------- | ----------- | ---------------    | -----    |
 | OnePlus 7 series     | unified_op7 | cyberknight777     |  EOL     |
 | Xiaomi Redmi Note 10 | mojito      | cyberknight777     | Alive    |
-| OnePlus 8 series     | unified_op8 | cyberknight777     | Alive    |
-| Xiaomi Redmi 6 Pro   | sakura      | cyberknight777     | Alive    |
-| HTC M8               | m8wl        | cyberknight777     | Paused   | 
-| Xiaomi 5A            | riva        | cyberknight777     | Paused   |
-| Redmi-MT6768         | mt6768      | cyberknight777     | Alive    |
-| Redmi Note 8/T       | ginkgo      | cyberknight777     | Alive    |
-| Realme C3            | rmx2020     | cyberknight777     | Alive    |
+| OnePlus 8 series     | unified_op8 | cyberknight777     | EOL      |
+| Xiaomi Redmi 6 Pro   | sakura      | cyberknight777     | EOL      |
+| HTC M8               | m8wl        | cyberknight777     | EOL      |
+| Xiaomi 5A            | riva        | cyberknight777     | EOL      |
+| Redmi-MT6768         | mt6768      | cyberknight777     | EOL      |
+| Redmi Note 8/T       | ginkgo      | cyberknight777     | EOL      |
+| Realme C3            | rmx2020     | cyberknight777     | EOL      |
 | Samsung S8           | dreamlte    | Pointz             | Alive    |
 | Samsung S8 plus      | dream2lte   | Pointz             | Alive    |
 | Samsung Note 8       | greatlte    | Pointz             | Alive    |
