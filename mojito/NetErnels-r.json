@@ -1,0 +1,15 @@
+
+{
+  "kernel": {
+  "name": "NetErnels",
+  "version": "r16b13",
+  "link": "https://github.com/NetErnels/devices/releases/download/r16b13/NetErnels-mojito-r16b13.zip",
+  "changelog_url": "https://raw.githubusercontent.com/NetErnels/devices/master/mojito/changelog_r.md",
+  "date": "2022-08-14",
+  "sha1": "e195a610b578aff06ae878433e4009390f614311"
+  },
+  "support": {
+    "link": "https://t.me/neternels_chat"
+  }
+}
+
