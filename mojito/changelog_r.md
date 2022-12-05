@@ -5,9 +5,16 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 12.2.1
 Branch: staging
-Build Number: r16b13
+Build Number: r16b15
 ```
 ## Changelog
+**-r16b15**
+* Don't optimize wlan and audio drivers for size.
+* Add support for /sys/touchpanel/double_tap node.
+* Update in-kernel LZ4 to v1.9.4.
+* Disable LZ4HC support.
+* Increase rating of teo cpuidle governor to 50 so it supercedes qcom cpuidle governor.
+
 **-r16b14**
 
 * Drop MGLRU as its too aggressive.
