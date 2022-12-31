@@ -3,9 +3,9 @@
 Kernel: NetErnels Kernel
 Type: Stable
 Device: Redmi Note 10
-Compiler: Eva GCC 12.0.0
+Compiler: Eva GCC 12.2.1
 Branch: LA.UM.9.1
-Build Number: v6-NYSP
+Build Number: v7-NYSP
 ```
 ## Changelog
 **-v5**
@@ -68,3 +68,79 @@ Build Number: v6-NYSP
 * nuke irrelevant drivers
 * fix vid recording in A12
 * build most drivers as a module
+
+**-v7-NYSP**
+* Rebased off LA.UM.9.1.r1-11900-SMxxx0.0.
+* Import wlan drivers from LA.UM.9.1.r1-11900-SMxxx0.0.
+* Import audio drivers from LA.UM.9.1.r1-11900-SMxxx0.0.
+* Import rmnet drivers from LA.UM.9.1.r1-11900-SMxxx0.0.
+* Upstream F2FS from kernel/msm-4.14.
+* Import ximi thermal changes.
+* Some improvements done to schedutil.
+* Tune CIB and devfreq_boost well with efficient frequency setup.
+* Switch to 50hz tickrate.
+* Drop lotta debugging and logging.
+* Drop statfs and iostat for f2fs.
+* Drop some unnecessary drivers from building.
+* Vidc patches to improve video quality / video streaming.
+* ZSTD optimizations by samsung.
+* Drop DEBUGFS.
+* CFQ patches for better I/O perf.
+* Configure up/down ratelimit of schedutil for each cluster.
+* Bring back full support for CAF ROMs.
+* Enable LZO, LZO-RLE, LZ4, LZ4HC for f2fs compression.
+* Backport exfat from mainline.
+* Some DTS fixes for thermal.
+* Backport an important network fix from mainline.
+* LZ4 backports.
+* EROFS backports.
+* Parallel direct-writes backport (and enable the feature).
+* Disable broken IRQ detection.
+* Disable GCSE.
+* Thermal patches (for step-wise).
+* Drop MSM_THERMAL_SIMPLE.
+* Switch to step_wise thermal governor.
+* KGSL improvements by sultan.
+* Some scheduler optimizations.
+* Arter's KGSL patches.
+* Backport an important mm patch to fix non atomic order 0 allocation failure from mainline.
+* Debloat & Optimize the kernel (by dropping most irrelevant tracers and debugging drivers).
+* Enable LZ4 compressed ramdisk (for those on roms that support it).
+* Adapt boost events to latest KProfiles.
+* Drop big core affines.
+* Freq table and EM imported from gulch for consistency.
+* Port over CRNG from LKS 4.14 to MSM-4.14.
+* Drop Srandom over CRNG.
+* Nuke extraneous FPC driver
+* Implement IRQF_FORCE_RESUME correctly.
+* Reduce memory usage of LZ4 to 16KB.
+* Switch to LZ4 for pstore compression.
+* Refactor the fingerprint driver for clarity.
+* Build debugfs as of /sys/kernel/debug/tracing for ROMs with tracing and/or apps that require tracing.
+* Stub out aw87xxx loggers for sanity.
+* Kill qcacld wakelocks.
+* Force warm reboots to preserve ramoops.
+* Build debugfs as of /sys/kernel/debug/tracing for ROMs with tracing and/or apps that require tracing.
+* Nuke irrelevant sched features which caused overhead (improved interactivity).
+* EROFS fixes for random reboots.
+* Improvements to power driver.
+* Improvements to thermals (mi thermald should work better now).
+* Improvements to touch driver (its cleaner now).
+* Misc sched changes to improve latency.
+* Rewire FPC driver for clarity (again).
+* Enable LZ4 for F2FS Compression.
+* Kill SDCardFS when flashed in an inline build (Supported ROMs only for now).
+* Enable Legacy QTI MSM RNG support.
+* Misc CFQ improvements.
+* Increase throttle temp for fast charging to 42.
+* Dynamically tune minfree and timeout values of SLMK.
+* QoL patches to net and qcacld to improve wlan perf.
+* Remove rmnet drivers for wlan perf.
+* Don't optimize wlan and audio drivers for size.
+* Add support for /sys/touchpanel/double_tap node.
+* Update in-kernel LZ4 to v1.9.4.
+* Disable LZ4HC support.
+* Increase rating of teo cpuidle governor to 50 so it supercedes qcom cpuidle governor.
+* Import OPLUS Memory Management Hacks.
+* KProfiles 5.0.0.
+* Built using GCC compiled from stable sources + LLVM from mainline.
