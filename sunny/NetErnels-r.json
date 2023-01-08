@@ -3,8 +3,8 @@
   "kernel": {
   "name": "NetErnels",
   "version": "r16b15",
-  "link": "https://github.com/NetErnels/devices/releases/download/r16b15/NetErnels-mojito-r16b15.zip",
-  "changelog_url": "https://raw.githubusercontent.com/NetErnels/devices/master/mojito/changelog_r.md",
+  "link": "https://github.com/NetErnels/devices/releases/download/r16b15/NetErnels-sunny-r16b15.zip",
+  "changelog_url": "https://raw.githubusercontent.com/NetErnels/devices/master/sunny/changelog_r.md",
   "date": "2022-12-06",
   "sha1": "68a2cdcb3a08360e9c094254c348ccc486fb0159"
   },

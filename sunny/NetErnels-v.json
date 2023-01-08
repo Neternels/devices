@@ -2,8 +2,8 @@
   "kernel": {
     "name": "NetErnels",
     "version": "v7-NYSP",
-    "link": "https://github.com/NetErnels/devices/raw/master/mojito/NetErnels-mojito-v7-NYSP.zip",
-    "changelog_url": "https://raw.githubusercontent.com/neternels/devices/master/mojito/changelog.md",
+    "link": "https://github.com/NetErnels/devices/raw/master/sunny/NetErnels-sunny-v7-NYSP.zip",
+    "changelog_url": "https://raw.githubusercontent.com/neternels/devices/master/sunny/changelog.md",
     "date": "2023-01-01",
     "sha1": "1b635ed1f8995e7cb0f49573a2d6d7f154837808"
   },
