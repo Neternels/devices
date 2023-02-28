@@ -2,11 +2,11 @@
 {
   "kernel": {
   "name": "NetErnels",
-  "version": "r16b15",
-  "link": "https://github.com/NetErnels/devices/releases/download/r16b15/NetErnels-sunny-r16b15.zip",
+  "version": "r17a1",
+  "link": "https://github.com/NetErnels/devices/releases/download/r17a1/NetErnels-sunny-r17a1.zip",
   "changelog_url": "https://raw.githubusercontent.com/NetErnels/devices/master/sunny/changelog_r.md",
-  "date": "2022-12-06",
-  "sha1": "68a2cdcb3a08360e9c094254c348ccc486fb0159"
+  "date": "2023-02-28",
+  "sha1": "a7e895ee6ee2465c02b5484cd94eceb5b1abfa6e"
   },
   "support": {
     "link": "https://t.me/neternels_chat"

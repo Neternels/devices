@@ -5,9 +5,32 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 12.2.1
 Branch: staging
-Build Number: r16b15
+Build Number: r17a1
 ```
 ## Changelog
+**-r17a1**
+* KProfiles 5.0.2.
+* TP driver cleanup(kudos to fiqri).
+* Minor DRM cleanup(kudos to fiqri).
+* Implement simple double tap attribute for modernized dt2w sensor.
+* Enable TouchGestures for double tap attribute to work.
+* Fix touch suspend workqueue.
+* Drop legacy double tap to wake handling.
+* Simplify event key reporting.
+* Rename gesture macros for sanity.
+* Don't read gestures if TS has not suspended.
+* Report SCHED_CAPACITY_SCALE to the problematic userspace for unity games.
+* Add per-cpu threads for decompression in EROFS for better app launches and boot time.
+* Set scheduler to use SCHED RR at high priority for lower latency.
+* Drop TEO governor.
+* Drop recent lpm-levels optimizations.
+* Fully switch to WFI for cpuidle(should improve drains).
+* Upgrade ZSTD to latest upstream v1.5.4.
+* Fix HBM parameters to make HBM finally work.
+* Restore brightness value when hbm is turned off.
+* Implement exposure adjustment to have proper DC Dimming working.
+* Adapt exposure adjustment values for sunny to have low flickering and minimal backlight intensity.
+
 **-r16b15**
 * Don't optimize wlan and audio drivers for size.
 * Add support for /sys/touchpanel/double_tap node.
