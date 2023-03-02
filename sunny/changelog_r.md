@@ -5,9 +5,15 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 12.2.1
 Branch: staging
-Build Number: r17a1
+Build Number: r17a2
 ```
 ## Changelog
+**-r17a2**
+* Add cmdline interface to check if dt2w sensor is used.
+* Restore legacy dt2w behaviour.
+* Guard double tap attribute handling(it breaks modernized dt2w if not adapted to this change).
+* Stop building compressed Image as it's redundant.
+
 **-r17a1**
 * KProfiles 5.0.2.
 * TP driver cleanup(kudos to fiqri).
