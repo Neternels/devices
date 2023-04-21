@@ -5,9 +5,13 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 12.2.1
 Branch: staging
-Build Number: r17a2
+Build Number: r17a3
 ```
 ## Changelog
+**-r17a3**
+* Re-expose SLMK tunables to userspace.
+* Re-enable userspace CPU boosting.
+
 **-r17a2**
 * Add cmdline interface to check if dt2w sensor is used.
 * Restore legacy dt2w behaviour.
