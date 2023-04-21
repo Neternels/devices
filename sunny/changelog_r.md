@@ -5,9 +5,14 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 12.2.1
 Branch: staging
-Build Number: r17a3
+Build Number: r17a4
 ```
 ## Changelog
+**-r17a4**
+* Implement simple single tap attribute for modernized ST2W sensor.
+* Add cmdline interface to check if st2w sensor is used.
+* Restore legacy st2w behaviour.
+
 **-r17a3**
 * Re-expose SLMK tunables to userspace.
 * Re-enable userspace CPU boosting.
