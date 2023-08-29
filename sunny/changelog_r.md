@@ -5,9 +5,17 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 12.2.1
 Branch: staging
-Build Number: r17a4
+Build Number: r17a5
 ```
 ## Changelog
+**-r17a5**
+* Transition to LMKD.
+* Revert some harmful high-prio wq patches.
+* Build kernel fully with GCC and GNU Binutils.
+* Merge LA.UM.9.1.r1-12900-SMxxx0.0 in kernel.
+* Update F2FS from f2fs-stable.
+* Fix OOM crash when using "livin' by mandiri" banking application.
+
 **-r17a4**
 * Implement simple single tap attribute for modernized ST2W sensor.
 * Add cmdline interface to check if st2w sensor is used.
