@@ -3,11 +3,27 @@
 Kernel: NetErnels Kernel
 Type: Bleeding Edge
 Device: Redmi Note 10
-Compiler: Eva GCC 12.2.1
+Compiler: Eva GCC 14.0.0
 Branch: staging
-Build Number: r17a5
+Build Number: r17a6
 ```
 ## Changelog
+**-r17a6
+* Implement screen state tracking for exposure adjustment which is used for DC Dim Schedule to fix black screen of deaths.
+* Upstream KProfiles to `v6.0.0`.
+* Drop perf-critical API as it is useless.
+* Drop sched_migrate_to_cpumask_{start,end}() as it is also useless.
+* Improve random memory access for EROFS.
+* Misc improvements done to F2FS.
+* Implement kernel-level IRQ Balancing which is known as SBalance.
+* Implement a kernel-level blocker for userspace irq balancer.
+* Add cmdline interface to check if SBalance is used.
+* Do not utilize the blocker if init.is_sbalance=1 is implemented in cmdline.
+* Add support for Sony DualSense and DualSense Edge controllers.
+* Drop CAF's vmpressure based process reclaim.
+* Enable Linux's Per-Process Reclaim to utilize it alongside CachedAppOptimizer.
+* Build with EvaGCC 14.0.0.
+
 **-r17a5**
 * Transition to LMKD.
 * Revert some harmful high-prio wq patches.
