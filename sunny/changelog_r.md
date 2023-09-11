@@ -8,7 +8,7 @@ Branch: staging
 Build Number: r17a6
 ```
 ## Changelog
-**-r17a6
+**-r17a6**
 * Implement screen state tracking for exposure adjustment which is used for DC Dim Schedule to fix black screen of deaths.
 * Upstream KProfiles to `v6.0.0`.
 * Drop perf-critical API as it is useless.
