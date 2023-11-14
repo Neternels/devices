@@ -5,11 +5,16 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.0
 Branch: staging
-Build Number: r17a8
+Build Number: r17a9
 ```
 ## Changelog
+**-r17a9**
+* Drop userspace irqbalancer blocker as we don't need it anymore.
+* Don't allow IRQ affinities to be set from userspace.
+
 **-r17a8**
 * Inline some BT modules to fix loading hci_usb.
+
 **-r17a7**
 * Add support for Android 14.
 * Fixup kernel-level blocker for userspace irq balancer to not be utilized when init.is_sbalance=1.
