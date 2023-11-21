@@ -5,9 +5,12 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.0
 Branch: staging
-Build Number: r17a9
+Build Number: r17a10
 ```
 ## Changelog
+**-r17a10**
+* Inline some ath9k modules to fix loading ath9k_htc.
+
 **-r17a9**
 * Drop userspace irqbalancer blocker as we don't need it anymore.
 * Don't allow IRQ affinities to be set from userspace.
