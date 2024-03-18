@@ -3,11 +3,14 @@
 Kernel: NetErnels Kernel
 Type: Bleeding Edge
 Device: Redmi Note 10
-Compiler: Eva GCC 14.0.0
+Compiler: Eva GCC 14.0.1
 Branch: staging
-Build Number: r17a10
+Build Number: r17b1
 ```
 ## Changelog
+**-r17b1**
+* Backport BPF patches to support Android 15 and above.
+
 **-r17a10**
 * Inline some ath9k modules to fix loading ath9k_htc.
 
