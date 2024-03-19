@@ -5,9 +5,12 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.1
 Branch: staging
-Build Number: r17b1
+Build Number: r17b2
 ```
 ## Changelog
+**-r17b2**
+* Actually drop userspace irqbalancer blocker.
+
 **-r17b1**
 * Backport BPF patches to support Android 15 and above.
 
