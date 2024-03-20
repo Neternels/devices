@@ -5,9 +5,14 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.1
 Branch: staging
-Build Number: r17b2
+Build Number: r17b3
 ```
 ## Changelog
+**-r17b3**
+* Implement a kernel-level spoofing for fake uname to bpfloader/netd/netbpfload to boot newer Android versions.
+* Add cmdline interface to check if legacy eBPF is used.
+* Don't spoof fake uname if is_legacy_ebpf is set to true.
+
 **-r17b2**
 * Actually drop userspace irqbalancer blocker.
 
