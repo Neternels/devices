@@ -5,9 +5,12 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.1
 Branch: staging
-Build Number: r17b3
+Build Number: r17b4
 ```
 ## Changelog
+**-r17b4**
+* Retain recovery ramdisk when flashing kernel. (Make sure to be on respective ROM's boot and vendor_boot before flashing!)
+
 **-r17b3**
 * Implement a kernel-level spoofing for fake uname to bpfloader/netd/netbpfload to boot newer Android versions.
 * Add cmdline interface to check if legacy eBPF is used.
