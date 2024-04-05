@@ -5,9 +5,13 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.1
 Branch: staging
-Build Number: r17b4
+Build Number: r17b5
 ```
 ## Changelog
+**-r17b5**
+* Import LZ4KD compression algorithm from HUAWEI.
+* Utilize LZ4KD for ZSWAP/VBSWAP to improve memory management.
+
 **-r17b4**
 * Retain recovery ramdisk when flashing kernel. (Make sure to be on respective ROM's boot and vendor_boot before flashing!)
 
