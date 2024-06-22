@@ -5,9 +5,12 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.1
 Branch: staging
-Build Number: r17b5
+Build Number: r17b6
 ```
 ## Changelog
+**-r17b6**
+* Move back to ZSTD for ZSWAP/VBSWAP as LZ4KD regressed memory management.
+
 **-r17b5**
 * Import LZ4KD compression algorithm from HUAWEI.
 * Utilize LZ4KD for ZSWAP/VBSWAP to improve memory management.
