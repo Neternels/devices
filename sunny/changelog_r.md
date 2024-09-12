@@ -3,11 +3,14 @@
 Kernel: NetErnels Kernel
 Type: Bleeding Edge
 Device: Redmi Note 10
-Compiler: Eva GCC 14.0.1
+Compiler: Eva GCC 12.0.0
 Branch: staging
-Build Number: r17b6
+Build Number: r17b7
 ```
 ## Changelog
+**r17b7**
+* Improve kernel-level BPF spoofing to boot Android 15.
+
 **-r17b6**
 * Move back to ZSTD for ZSWAP/VBSWAP as LZ4KD regressed memory management.
 
