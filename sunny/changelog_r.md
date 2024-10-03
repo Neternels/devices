@@ -5,10 +5,14 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 12.0.0
 Branch: staging
-Build Number: r17b7
+Build Number: r17b8
 ```
 ## Changelog
-**r17b7**
+**-r17b8**
+* Enable PS2/3/4 accessories driver.
+* Backport DualSense driver improvements.
+
+**-r17b7**
 * Improve kernel-level BPF spoofing to boot Android 15.
 
 **-r17b6**
