@@ -5,9 +5,12 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 12.0.0
 Branch: staging
-Build Number: r17b8
+Build Number: r17b9
 ```
 ## Changelog
+**-r17b9**
+* Inline HIDP protocol driver.
+
 **-r17b8**
 * Enable PS2/3/4 accessories driver.
 * Backport DualSense driver improvements.
