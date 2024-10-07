@@ -5,9 +5,12 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 12.0.0
 Branch: staging
-Build Number: r17b9
+Build Number: r17b10
 ```
 ## Changelog
+**-r17b10**
+* Disable VBUS regulator on shutdown to fix OTG with warm reboots on.
+
 **-r17b9**
 * Inline HIDP protocol driver.
 
