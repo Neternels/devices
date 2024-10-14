@@ -3,11 +3,15 @@
 Kernel: NetErnels Kernel
 Type: Bleeding Edge
 Device: Redmi Note 10
-Compiler: Eva GCC 12.0.0
+Compiler: Eva GCC 14.0.0
 Branch: staging
-Build Number: r17b10
+Build Number: r17b11
 ```
 ## Changelog
+**-r17b11**
+* Fixed a rare issue where plugging headphones cause kernel panics.
+* Build with EvaGCC 14.0.0.
+
 **-r17b10**
 * Disable VBUS regulator on shutdown to fix OTG with warm reboots on.
 
