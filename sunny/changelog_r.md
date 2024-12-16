@@ -5,9 +5,14 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.0
 Branch: staging
-Build Number: r17b11
+Build Number: r17b12
 ```
 ## Changelog
+**-r17b12**
+* Support WPA3-SAE.
+* Drop DualShock4 support in legacy hid-sony driver.
+* Backport DualShock4 support from mainline to hid-playstation driver.
+
 **-r17b11**
 * Fixed a rare issue where plugging headphones cause kernel panics.
 * Build with EvaGCC 14.0.0.
