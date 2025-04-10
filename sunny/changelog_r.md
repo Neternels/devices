@@ -8,6 +8,10 @@ Branch: staging
 Build Number: r17b12
 ```
 ## Changelog
+**r17b13**
+* Fixed an issue where building the kernel only yields errors and warnings but not the actual code compilation details.
+* Backport UserFaultFD GarbageCollector support. (requires the respective ROM to enable it!)
+
 **-r17b12**
 * Support WPA3-SAE.
 * Drop DualShock4 support in legacy hid-sony driver.
