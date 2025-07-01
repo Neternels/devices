@@ -5,10 +5,13 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.0
 Branch: staging
-Build Number: r17b12
+Build Number: r17b14
 ```
 ## Changelog
-**r17b13**
+**-r17b14**
+* Backport BPF patches to support Android 16.
+
+**-r17b13**
 * Fixed an issue where building the kernel only yields errors and warnings but not the actual code compilation details.
 * Backport UserFaultFD GarbageCollector support. (requires the respective ROM to enable it!)
 
@@ -139,7 +142,6 @@ Build Number: r17b12
 * Increase rating of teo cpuidle governor to 50 so it supercedes qcom cpuidle governor.
 
 **-r16b14**
-
 * Drop MGLRU as its too aggressive.
 * Drop SLMK tunables.
 * Dynamically tune minfree and timeout values of SLMK.
@@ -149,7 +151,6 @@ Build Number: r17b12
 * Increase throttle temp for fast charging to 42.
 
 **-r16b13**
-
 * Enable LZ4 for F2FS Compression.
 * Kill SDCardFS when flashed in an inline build (PixelOS Only for now).
 * Enable Legacy QTI MSM RNG support.
