@@ -5,9 +5,12 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.0
 Branch: staging
-Build Number: r17b14
+Build Number: r17b15
 ```
 ## Changelog
+**-r17b15**
+* Backport TLB patches from android11-5.4 to accomodate mremap backports.
+
 **-r17b14**
 * Backport BPF patches to support Android 16.
 
