@@ -5,9 +5,17 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.0
 Branch: staging
-Build Number: r17b15
+Build Number: r18a1
 ```
 ## Changelog
+**-r18a1**
+* Set default brightness to 15% max level.
+* Revert incomplete BPF patchset & syscall spoof.
+* Backport BPF from android-4.19-stable.
+* Backport BPF from android12-5.4.
+* Backport close_range() and CLOSE_RANGE_CLOEXEC flag from android13-5.10 to fix an issue where hotspot and tethering doesn't work on Android 16 QPR2.
+* Backport epoll_pwait2() syscall from android13-5.15 to fix a massive logspam on Android 16 QPR2.
+
 **-r17b15**
 * Backport TLB patches from android11-5.4 to accomodate mremap backports.
 
