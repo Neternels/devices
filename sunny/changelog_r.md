@@ -5,9 +5,15 @@ Type: Bleeding Edge
 Device: Redmi Note 10
 Compiler: Eva GCC 14.0.0
 Branch: staging
-Build Number: r18a1
+Build Number: r18a2
 ```
 ## Changelog
+**-r18a2**
+* Enable relevant configurations for netd_integration_test.
+* Enable CONFIG_XFRM_MIGRATE to pass NetdBinderTest#XfrmMigrate.
+* Backport aqc111 driver from android12-5.10 to pass KernelTest#TestSupportsCommonUsbEthernetDongles.
+* Backport accept_ra_min_lft from android12-5.10 to pass KernelTest#TestSupportsAcceptRaMinLft.
+
 **-r18a1**
 * Set default brightness to 15% max level.
 * Revert incomplete BPF patchset & syscall spoof.
